@@ -21,12 +21,8 @@ deixa o mouse (seta) no local onde vai ser clicado
 executa pyautogui.position (e vai mostrar a posição onde a seta está)
 
 '''
-
-#po = pyautogui.position()
-#print(po)
-
 time.sleep(6)
-pyautogui.moveTo(89, 249)
+pyautogui.moveTo(89, 249) # os valores são os que foram pegos no arquivo position
 
 pyautogui.leftClick()
 pyautogui.write('blackpink')
