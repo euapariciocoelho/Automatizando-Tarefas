@@ -3,7 +3,7 @@ import pyautogui
 from turtle import position
 import time
 #pyautogui.alert("O codigo esta rodando, não mexa em nada!")
-pyautogui.PAUSE = 1.0
+pyautogui.PAUSE = 3.0
 pyautogui.press('winleft')
 pyautogui.write('edge')
 pyautogui.press('enter')
@@ -21,8 +21,10 @@ pyautogui.press('enter')'''
 deixa o mouse (seta) no local onde vai ser clicado
 executa pyautogui.position (e vai mostrar a posição onde a seta está)
 
+https://open.spotify.com/
+
 '''
-time.sleep(6)
+time.sleep(10)
 pyautogui.moveTo(89, 249) # os valores são os que foram pegos no arquivo position
 
 pyautogui.leftClick()

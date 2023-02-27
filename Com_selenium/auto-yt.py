@@ -5,7 +5,8 @@ from selenium.webdriver.chrome.service import Service
 
 servico = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=servico)
-'''
+'''blackpink
+
     para pegar o elemento 'find_element' -> clica em inspecionar, clica na parte na tela que deseja usar, e copia o xpath
     que vai aparecer após clicar no objeto selecionado
     
